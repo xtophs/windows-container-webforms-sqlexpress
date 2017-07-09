@@ -1,0 +1,6 @@
+Thank you for registering to The Beer House web site! Follows your credentials for logging-in:
+UserName: <% UserName %>
+Password: <% Password %>
+
+See you online!
+- The Beer House Team

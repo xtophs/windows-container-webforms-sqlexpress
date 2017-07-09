@@ -1,0 +1,97 @@
+<asp:Label runat="server" SkinID="FeedbackOK" ForeColor="green" />
+
+<asp:Label runat="server" SkinID="FeedbackKO" ForeColor="red" />
+
+<asp:Label runat="server" SkinID="NotApproved" ForeColor="red" BackColor="yellow" Tooltip="Article waiting for approval" Font-Size="small" />
+
+<asp:GridView runat="server" Width="100%" CellPadding="4" ForeColor="#333333" GridLines="None">
+   <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+   <RowStyle BackColor="#ffeee5" ForeColor="#333333" />
+   <PagerStyle BackColor="#ebb267" ForeColor="#333333" HorizontalAlign="Center" />
+   <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+   <HeaderStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="#8d2d23" />
+   <AlternatingRowStyle BackColor="White" />
+</asp:GridView>
+
+<asp:GridView SkinID="Posts" runat="server" Width="100%" CellPadding="0" ForeColor="#333333" GridLines="None">
+   <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+   <RowStyle BackColor="#ffeee5" ForeColor="#333333" />
+   <PagerStyle BackColor="#ebb267" ForeColor="#333333" HorizontalAlign="Center" />
+   <SelectedRowStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+   <HeaderStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="#8d2d23" />
+   <AlternatingRowStyle BackColor="White" />
+</asp:GridView>
+
+<asp:GridView runat="server" Width="100%" SkinID="Articles" CellPadding="3" CellSpacing="2" ForeColor="#333333" GridLines="None" ShowHeader="false">
+   <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+   <PagerStyle BackColor="#ebb267" ForeColor="#333333" HorizontalAlign="Center" />
+   <HeaderStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="#8d2d23" />
+</asp:GridView>
+
+<asp:DetailsView runat="server" CellPadding="4"
+   ForeColor="#333333" GridLines="None" Height="50px" Width="100%">
+   <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+   <PagerStyle BackColor="#ebb267" ForeColor="#333333" HorizontalAlign="Center" />      
+   <HeaderStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="#8d2d23" />
+   <AlternatingRowStyle BackColor="White" />
+   <CommandRowStyle BackColor="#ffeee5" Font-Bold="True" HorizontalAlign="Right" />
+   <RowStyle BackColor="White" />
+   <FieldHeaderStyle BackColor="#ffeee5" Font-Bold="True" />
+</asp:DetailsView>
+
+<asp:DataList runat="server" Width="100%" CellPadding="4" ForeColor="#333333">
+   <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
+   <SelectedItemStyle BackColor="#FFCC66" Font-Bold="True" ForeColor="Navy" />
+   <AlternatingItemStyle BackColor="White" />
+   <ItemStyle BackColor="#fdfde7" ForeColor="#333333" />
+</asp:DataList>
+
+<asp:WebPartZone runat="server" BorderColor="#CCCCCC" Font-Names="Verdana" Padding="0" PartChromeType="TitleOnly">
+   <PartTitleStyle CssClass="sectiontitle" />
+   <MenuLabelHoverStyle ForeColor="#FFCC66" />
+   <EmptyZoneTextStyle Font-Size="0.8em" />
+   <MenuLabelStyle ForeColor="White" />
+   <MenuVerbHoverStyle BackColor="#FFFBD6" BorderColor="#CCCCCC" BorderStyle="Solid" BorderWidth="1px" ForeColor="#333333" />
+   <HeaderStyle Font-Bold="true" Font-Size="8pt" />
+   <MenuVerbStyle BorderColor="#990000" BorderStyle="Solid" BorderWidth="1px" ForeColor="White" />
+   <TitleBarVerbStyle Font-Size="0.6em" Font-Underline="False" ForeColor="White" />
+   <MenuPopupStyle BackColor="#990000" BorderColor="#CCCCCC" BorderWidth="1px" Font-Names="Verdana" Font-Size="0.6em" />   
+   <MinimizeVerb ImageUrl="~/Images/GoDown.gif"></MinimizeVerb>
+   <RestoreVerb ImageUrl="~/Images/GoUp.gif"></RestoreVerb>
+   <EditVerb ImageUrl="~/Images/Edit.gif"></EditVerb>
+   <CloseVerb ImageUrl="~/Images/Close.gif"></CloseVerb>
+   <DeleteVerb ImageUrl="~/Images/Delete.gif" />   
+</asp:WebPartZone>
+
+<asp:EditorZone runat="server" BackColor="#FFFBD6" BorderColor="#CCCCCC" BorderWidth="1px" Font-Names="Verdana" Padding="6">
+   <HeaderStyle BackColor="#FFCC66" Font-Bold="True" Font-Size="0.8em" ForeColor="#333333" />
+   <LabelStyle Font-Size="0.8em" ForeColor="#333333" />
+   <HeaderVerbStyle Font-Bold="False" Font-Size="0.8em" Font-Underline="False" ForeColor="#333333" />
+   <PartChromeStyle BorderColor="#FFCC66" BorderStyle="Solid" BorderWidth="1px" />
+   <PartStyle BorderColor="#FFFBD6" BorderWidth="5px" />
+   <FooterStyle BackColor="#FFCC66" HorizontalAlign="Right" />
+   <EditUIStyle Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" />
+   <InstructionTextStyle Font-Size="0.8em" ForeColor="#333333" />
+   <ErrorStyle Font-Size="0.8em" />
+   <VerbStyle Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" />
+   <EmptyZoneTextStyle Font-Size="0.8em" ForeColor="#333333" />
+   <PartTitleStyle Font-Bold="True" Font-Size="0.8em" ForeColor="#333333" />
+   <HeaderCloseVerb ImageUrl="~/Images/Close.gif" />
+</asp:EditorZone>
+
+<asp:CatalogZone runat="server" BackColor="#FFFBD6" BorderColor="#CCCCCC" BorderWidth="1px" Font-Names="Verdana" Padding="6">
+   <HeaderVerbStyle Font-Bold="False" Font-Size="0.8em" Font-Underline="False" ForeColor="#333333" />
+   <PartTitleStyle BackColor="#990000" Font-Bold="True" Font-Size="0.8em" ForeColor="White" />
+   <PartChromeStyle BorderColor="#FFCC66" BorderStyle="Solid" BorderWidth="1px" />
+   <InstructionTextStyle Font-Size="0.8em" ForeColor="#333333" />
+   <PartLinkStyle Font-Size="0.8em" />
+   <EmptyZoneTextStyle Font-Size="0.8em" ForeColor="#333333" />
+   <LabelStyle Font-Size="0.8em" ForeColor="#333333" />
+   <VerbStyle Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" />
+   <PartStyle BorderColor="#FFFBD6" BorderWidth="5px" />
+   <SelectedPartLinkStyle Font-Size="0.8em" />
+   <FooterStyle BackColor="#FFCC66" HorizontalAlign="Right" />
+   <HeaderStyle BackColor="#FFCC66" Font-Bold="True" Font-Size="0.8em" ForeColor="#333333" />
+   <EditUIStyle Font-Names="Verdana" Font-Size="0.8em" ForeColor="#333333" />
+   <HeaderCloseVerb ImageUrl="~/Images/Close.gif" />
+</asp:CatalogZone>

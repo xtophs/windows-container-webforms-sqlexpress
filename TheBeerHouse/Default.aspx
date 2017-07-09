@@ -1,0 +1,2 @@
+<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Default.aspx.cs" Inherits="MB.TheBeerHouse.UI._Default" Title="The Beer House" MasterPageFile="~/Template.master" %>
+<%@ MasterType VirtualPath="~/Template.master" %>

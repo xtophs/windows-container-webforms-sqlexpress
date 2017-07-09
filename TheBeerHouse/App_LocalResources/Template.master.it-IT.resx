@@ -1,0 +1,1071 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AppearanceEditorPart1Resource1.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AppearanceEditorPart1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AppearanceEditorPart1Resource1.Title" xml:space="preserve">
+    <value>Aspetto</value>
+  </data>
+  <data name="AppearanceEditorPart1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BehaviorEditorPart1Resource1.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BehaviorEditorPart1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="BehaviorEditorPart1Resource1.Title" xml:space="preserve">
+    <value>Comportamento</value>
+  </data>
+  <data name="BehaviorEditorPart1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CatalogZone1Resource1.AddVerb.Description" xml:space="preserve">
+    <value>Aggiungi Web Part ad una zona</value>
+  </data>
+  <data name="CatalogZone1Resource1.AddVerb.Text" xml:space="preserve">
+    <value>Aggiungi</value>
+  </data>
+  <data name="CatalogZone1Resource1.CloseVerb.Description" xml:space="preserve">
+    <value>Chiudi Catalogo</value>
+  </data>
+  <data name="CatalogZone1Resource1.CloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="CatalogZone1Resource1.EmptyZoneText" xml:space="preserve">
+    <value>Il catalogo non contiene nessuna Web Part.</value>
+  </data>
+  <data name="CatalogZone1Resource1.HeaderCloseVerb.Description" xml:space="preserve">
+    <value>Chiudi Zona</value>
+  </data>
+  <data name="CatalogZone1Resource1.HeaderCloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="CatalogZone1Resource1.HeaderText" xml:space="preserve">
+    <value>Catalogo</value>
+  </data>
+  <data name="CatalogZone1Resource1.InstructionText" xml:space="preserve">
+    <value>Seleziona il catalogo che vuoi sfogliare.</value>
+  </data>
+  <data name="CatalogZone1Resource1.SelectTargetZoneText" xml:space="preserve">
+    <value>Aggiungi a:</value>
+  </data>
+  <data name="CatalogZone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CenterZoneBottomLeftResource1.CloseVerb.Description" xml:space="preserve">
+    <value>Chiudi '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.CloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.ConnectVerb.Description" xml:space="preserve">
+    <value>Modifica le connessioni per '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.ConnectVerb.Text" xml:space="preserve">
+    <value>Connetti</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.DeleteVerb.Description" xml:space="preserve">
+    <value>Elimina '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.DeleteVerb.Text" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.EditVerb.Description" xml:space="preserve">
+    <value>Modifica '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.EditVerb.Text" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.EmptyZoneText" xml:space="preserve">
+    <value>Aggiungi una Web Part in questa zona tramite drag &amp; drop</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.ExportVerb.Description" xml:space="preserve">
+    <value>Esporta le personalizzazioni della Web Part '{0}' in un file XML</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.ExportVerb.Text" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.HeaderText" xml:space="preserve">
+    <value>Zona Centrale - in fondo a sinistra</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.HelpVerb.Description" xml:space="preserve">
+    <value>Mostra la guida per '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.HelpVerb.Text" xml:space="preserve">
+    <value>Guida</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.MenuLabelText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CenterZoneBottomLeftResource1.MinimizeVerb.Description" xml:space="preserve">
+    <value>Riduci '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.MinimizeVerb.Text" xml:space="preserve">
+    <value>Riduci</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.RestoreVerb.Description" xml:space="preserve">
+    <value>Ripristina '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.RestoreVerb.Text" xml:space="preserve">
+    <value>Ripristina</value>
+  </data>
+  <data name="CenterZoneBottomLeftResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CenterZoneBottomResource1.CloseVerb.Description" xml:space="preserve">
+    <value>Chiudi '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomResource1.CloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="CenterZoneBottomResource1.ConnectVerb.Description" xml:space="preserve">
+    <value>Modifica le connessioni per '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomResource1.ConnectVerb.Text" xml:space="preserve">
+    <value>Connetti</value>
+  </data>
+  <data name="CenterZoneBottomResource1.DeleteVerb.Description" xml:space="preserve">
+    <value>Elimina '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomResource1.DeleteVerb.Text" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="CenterZoneBottomResource1.EditVerb.Description" xml:space="preserve">
+    <value>Modifica '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomResource1.EditVerb.Text" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="CenterZoneBottomResource1.EmptyZoneText" xml:space="preserve">
+    <value>Aggiungi una Web Part in questa zona tramite drag &amp; drop</value>
+  </data>
+  <data name="CenterZoneBottomResource1.ExportVerb.Description" xml:space="preserve">
+    <value>Esporta le personalizzazioni della Web Part '{0}' in un file XML</value>
+  </data>
+  <data name="CenterZoneBottomResource1.ExportVerb.Text" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="CenterZoneBottomResource1.HeaderText" xml:space="preserve">
+    <value>Zona Centrale - in fondo</value>
+  </data>
+  <data name="CenterZoneBottomResource1.HelpVerb.Description" xml:space="preserve">
+    <value>Mostra la guida per '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomResource1.HelpVerb.Text" xml:space="preserve">
+    <value>Guida</value>
+  </data>
+  <data name="CenterZoneBottomResource1.MenuLabelText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CenterZoneBottomResource1.MinimizeVerb.Description" xml:space="preserve">
+    <value>Riduci '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomResource1.MinimizeVerb.Text" xml:space="preserve">
+    <value>Riduci</value>
+  </data>
+  <data name="CenterZoneBottomResource1.RestoreVerb.Description" xml:space="preserve">
+    <value>Ripristina '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomResource1.RestoreVerb.Text" xml:space="preserve">
+    <value>Rirpristina</value>
+  </data>
+  <data name="CenterZoneBottomResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CenterZoneBottomRightResource1.CloseVerb.Description" xml:space="preserve">
+    <value>Chiudi '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.CloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.ConnectVerb.Description" xml:space="preserve">
+    <value>Modifica le connessioni per '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.ConnectVerb.Text" xml:space="preserve">
+    <value>Connetti</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.DeleteVerb.Description" xml:space="preserve">
+    <value>Elimina '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.DeleteVerb.Text" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.EditVerb.Description" xml:space="preserve">
+    <value>Modifica '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.EditVerb.Text" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.EmptyZoneText" xml:space="preserve">
+    <value>Aggiungi una Web Part in questa zona tramite drag &amp; drop</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.ExportVerb.Description" xml:space="preserve">
+    <value>Esporta le personalizzazioni della Web Part '{0}' in un file XML</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.ExportVerb.Text" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.HeaderText" xml:space="preserve">
+    <value>Zona Centrale - in fondo a destra</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.HelpVerb.Description" xml:space="preserve">
+    <value>Mostra la guida per '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.HelpVerb.Text" xml:space="preserve">
+    <value>Guida</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.MenuLabelText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CenterZoneBottomRightResource1.MinimizeVerb.Description" xml:space="preserve">
+    <value>Riduci '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.MinimizeVerb.Text" xml:space="preserve">
+    <value>Riduci</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.RestoreVerb.Description" xml:space="preserve">
+    <value>Ripristina '{0}'</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.RestoreVerb.Text" xml:space="preserve">
+    <value>Rirpristina</value>
+  </data>
+  <data name="CenterZoneBottomRightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CenterZoneTopLeftResource1.CloseVerb.Description" xml:space="preserve">
+    <value>Chiudi '{0}'</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.CloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.ConnectVerb.Description" xml:space="preserve">
+    <value>Modifica le connessioni per '{0}'</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.ConnectVerb.Text" xml:space="preserve">
+    <value>Connetti</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.DeleteVerb.Description" xml:space="preserve">
+    <value>Elimina '{0}'</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.DeleteVerb.Text" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.EditVerb.Description" xml:space="preserve">
+    <value>Modifica '{0}'</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.EditVerb.Text" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.EmptyZoneText" xml:space="preserve">
+    <value>Aggiungi una Web Part in questa zona tramite drag &amp; drop</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.ExportVerb.Description" xml:space="preserve">
+    <value>Esporta le personalizzazioni della Web Part '{0}' in un file XML</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.ExportVerb.Text" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.HeaderText" xml:space="preserve">
+    <value>Zona Centrale - in alto a sinistra</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.HelpVerb.Description" xml:space="preserve">
+    <value>Mostra la guida per '{0}'</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.HelpVerb.Text" xml:space="preserve">
+    <value>Guida</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.MenuLabelText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CenterZoneTopLeftResource1.MinimizeVerb.Description" xml:space="preserve">
+    <value>Riduci '{0}'</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.MinimizeVerb.Text" xml:space="preserve">
+    <value>Riduci</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.RestoreVerb.Description" xml:space="preserve">
+    <value>Ripristina '{0}'</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.RestoreVerb.Text" xml:space="preserve">
+    <value>Rirpristina</value>
+  </data>
+  <data name="CenterZoneTopLeftResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CenterZoneTopResource1.CloseVerb.Description" xml:space="preserve">
+    <value>Chiudi '{0}'</value>
+  </data>
+  <data name="CenterZoneTopResource1.CloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="CenterZoneTopResource1.ConnectVerb.Description" xml:space="preserve">
+    <value>Modifica le connessioni per '{0}'</value>
+  </data>
+  <data name="CenterZoneTopResource1.ConnectVerb.Text" xml:space="preserve">
+    <value>Connetti</value>
+  </data>
+  <data name="CenterZoneTopResource1.DeleteVerb.Description" xml:space="preserve">
+    <value>Elimina '{0}'</value>
+  </data>
+  <data name="CenterZoneTopResource1.DeleteVerb.Text" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="CenterZoneTopResource1.EditVerb.Description" xml:space="preserve">
+    <value>Modifica '{0}'</value>
+  </data>
+  <data name="CenterZoneTopResource1.EditVerb.Text" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="CenterZoneTopResource1.EmptyZoneText" xml:space="preserve">
+    <value>Aggiungi una Web Part in questa zona tramite drag &amp; drop</value>
+  </data>
+  <data name="CenterZoneTopResource1.ExportVerb.Description" xml:space="preserve">
+    <value>Esporta le personalizzazioni della Web Part '{0}' in un file XML</value>
+  </data>
+  <data name="CenterZoneTopResource1.ExportVerb.Text" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="CenterZoneTopResource1.HeaderText" xml:space="preserve">
+    <value>Zona Centrale - in alto</value>
+  </data>
+  <data name="CenterZoneTopResource1.HelpVerb.Description" xml:space="preserve">
+    <value>Mostra la guida per '{0}'</value>
+  </data>
+  <data name="CenterZoneTopResource1.HelpVerb.Text" xml:space="preserve">
+    <value>Guida</value>
+  </data>
+  <data name="CenterZoneTopResource1.MenuLabelText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CenterZoneTopResource1.MinimizeVerb.Description" xml:space="preserve">
+    <value>Riduci '{0}'</value>
+  </data>
+  <data name="CenterZoneTopResource1.MinimizeVerb.Text" xml:space="preserve">
+    <value>Riduci</value>
+  </data>
+  <data name="CenterZoneTopResource1.RestoreVerb.Description" xml:space="preserve">
+    <value>Ripristina '{0}'</value>
+  </data>
+  <data name="CenterZoneTopResource1.RestoreVerb.Text" xml:space="preserve">
+    <value>Rirpristina</value>
+  </data>
+  <data name="CenterZoneTopResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CenterZoneTopRightResource1.CloseVerb.Description" xml:space="preserve">
+    <value>Chiudi '{0}'</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.CloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.ConnectVerb.Description" xml:space="preserve">
+    <value>Modifica le connessioni per '{0}'</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.ConnectVerb.Text" xml:space="preserve">
+    <value>Connetti</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.DeleteVerb.Description" xml:space="preserve">
+    <value>Elimina '{0}'</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.DeleteVerb.Text" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.EditVerb.Description" xml:space="preserve">
+    <value>Modifica '{0}'</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.EditVerb.Text" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.EmptyZoneText" xml:space="preserve">
+    <value>Aggiungi una Web Part in questa zona tramite drag &amp; drop</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.ExportVerb.Description" xml:space="preserve">
+    <value>Esporta le personalizzazioni della Web Part '{0}' in un file XML</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.ExportVerb.Text" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.HeaderText" xml:space="preserve">
+    <value>Zona Centrale - in alto a destra</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.HelpVerb.Description" xml:space="preserve">
+    <value>Mostra la guida per '{0}'</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.HelpVerb.Text" xml:space="preserve">
+    <value>Guida</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.MenuLabelText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="CenterZoneTopRightResource1.MinimizeVerb.Description" xml:space="preserve">
+    <value>Riduci '{0}'</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.MinimizeVerb.Text" xml:space="preserve">
+    <value>Riduci</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.RestoreVerb.Description" xml:space="preserve">
+    <value>Ripristina '{0}'</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.RestoreVerb.Text" xml:space="preserve">
+    <value>Rirpristina</value>
+  </data>
+  <data name="CenterZoneTopRightResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DeclarativeCatalogPart1Resource1.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DeclarativeCatalogPart1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="DeclarativeCatalogPart1Resource1.Title" xml:space="preserve">
+    <value>Catalogo del sito</value>
+  </data>
+  <data name="DeclarativeCatalogPart1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="EditorZone1Resource1.ApplyVerb.Description" xml:space="preserve">
+    <value>Applica Modifiche</value>
+  </data>
+  <data name="EditorZone1Resource1.ApplyVerb.Text" xml:space="preserve">
+    <value>Applica</value>
+  </data>
+  <data name="EditorZone1Resource1.CancelVerb.Description" xml:space="preserve">
+    <value>Annulla modifiche</value>
+  </data>
+  <data name="EditorZone1Resource1.CancelVerb.Text" xml:space="preserve">
+    <value>Annulla</value>
+  </data>
+  <data name="EditorZone1Resource1.EmptyZoneText" xml:space="preserve">
+    <value>Non ci sono editor disponibili.</value>
+  </data>
+  <data name="EditorZone1Resource1.ErrorText" xml:space="preserve">
+    <value>Si sono verificati degli errori.</value>
+  </data>
+  <data name="EditorZone1Resource1.HeaderCloseVerb.Description" xml:space="preserve">
+    <value>Chiudi Zona</value>
+  </data>
+  <data name="EditorZone1Resource1.HeaderCloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="EditorZone1Resource1.HeaderText" xml:space="preserve">
+    <value>Editor</value>
+  </data>
+  <data name="EditorZone1Resource1.InstructionText" xml:space="preserve">
+    <value>Modifica le proprietà di una Web Part, e clicca OK o Applica per confermare le modifiche</value>
+  </data>
+  <data name="EditorZone1Resource1.OKVerb.Description" xml:space="preserve">
+    <value>Applica le modifiche e chiudi l'editor</value>
+  </data>
+  <data name="EditorZone1Resource1.OKVerb.Text" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="EditorZone1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutEditorPart1Resource1.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutEditorPart1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LayoutEditorPart1Resource1.Title" xml:space="preserve">
+    <value>Layout</value>
+  </data>
+  <data name="LayoutEditorPart1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblPasswordResource1.Text" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="lblPasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblUserNameResource1.Text" xml:space="preserve">
+    <value>Nome utente:</value>
+  </data>
+  <data name="lblUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftZoneBottomResource1.CloseVerb.Description" xml:space="preserve">
+    <value>Chiudi '{0}'</value>
+  </data>
+  <data name="LeftZoneBottomResource1.CloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="LeftZoneBottomResource1.ConnectVerb.Description" xml:space="preserve">
+    <value>Modifica le connessioni per '{0}'</value>
+  </data>
+  <data name="LeftZoneBottomResource1.ConnectVerb.Text" xml:space="preserve">
+    <value>Connetti</value>
+  </data>
+  <data name="LeftZoneBottomResource1.DeleteVerb.Description" xml:space="preserve">
+    <value>Chiudi '{0}'</value>
+  </data>
+  <data name="LeftZoneBottomResource1.DeleteVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="LeftZoneBottomResource1.EditVerb.Description" xml:space="preserve">
+    <value>Modifica '{0}'</value>
+  </data>
+  <data name="LeftZoneBottomResource1.EditVerb.Text" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="LeftZoneBottomResource1.EmptyZoneText" xml:space="preserve">
+    <value>Aggiungi una Web Part in questa zona tramite drag &amp; drop</value>
+  </data>
+  <data name="LeftZoneBottomResource1.ExportVerb.Description" xml:space="preserve">
+    <value>Esporta le personalizzazioni della Web Part '{0}' in un file XML</value>
+  </data>
+  <data name="LeftZoneBottomResource1.ExportVerb.Text" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="LeftZoneBottomResource1.HeaderText" xml:space="preserve">
+    <value>Zona Sinistra - in fondo</value>
+  </data>
+  <data name="LeftZoneBottomResource1.HelpVerb.Description" xml:space="preserve">
+    <value>Mostra la guida per '{0}'</value>
+  </data>
+  <data name="LeftZoneBottomResource1.HelpVerb.Text" xml:space="preserve">
+    <value>Guida</value>
+  </data>
+  <data name="LeftZoneBottomResource1.MenuLabelText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftZoneBottomResource1.MinimizeVerb.Description" xml:space="preserve">
+    <value>Riduci '{0}'</value>
+  </data>
+  <data name="LeftZoneBottomResource1.MinimizeVerb.Text" xml:space="preserve">
+    <value>Riduci</value>
+  </data>
+  <data name="LeftZoneBottomResource1.RestoreVerb.Description" xml:space="preserve">
+    <value>Ripristina '{0}'</value>
+  </data>
+  <data name="LeftZoneBottomResource1.RestoreVerb.Text" xml:space="preserve">
+    <value>Ripristina</value>
+  </data>
+  <data name="LeftZoneBottomResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftZoneTopResource1.CloseVerb.Description" xml:space="preserve">
+    <value>Chiudi '{0}'</value>
+  </data>
+  <data name="LeftZoneTopResource1.CloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="LeftZoneTopResource1.ConnectVerb.Description" xml:space="preserve">
+    <value>Modifica le connessioni per '{0}'</value>
+  </data>
+  <data name="LeftZoneTopResource1.ConnectVerb.Text" xml:space="preserve">
+    <value>Connetti</value>
+  </data>
+  <data name="LeftZoneTopResource1.DeleteVerb.Description" xml:space="preserve">
+    <value>Elimina '{0}'</value>
+  </data>
+  <data name="LeftZoneTopResource1.DeleteVerb.Text" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="LeftZoneTopResource1.EditVerb.Description" xml:space="preserve">
+    <value>Modifica '{0}'</value>
+  </data>
+  <data name="LeftZoneTopResource1.EditVerb.Text" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="LeftZoneTopResource1.EmptyZoneText" xml:space="preserve">
+    <value>Aggiungi una Web Part in questa zona tramite drag &amp; drop</value>
+  </data>
+  <data name="LeftZoneTopResource1.ExportVerb.Description" xml:space="preserve">
+    <value>Esporta le personalizzazioni della Web Part '{0}' in un file XML</value>
+  </data>
+  <data name="LeftZoneTopResource1.ExportVerb.Text" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="LeftZoneTopResource1.HeaderText" xml:space="preserve">
+    <value>Zona Sinistra - in alto</value>
+  </data>
+  <data name="LeftZoneTopResource1.HelpVerb.Description" xml:space="preserve">
+    <value>Mostra la guida per '{0}'</value>
+  </data>
+  <data name="LeftZoneTopResource1.HelpVerb.Text" xml:space="preserve">
+    <value>Guida</value>
+  </data>
+  <data name="LeftZoneTopResource1.MenuLabelText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LeftZoneTopResource1.MinimizeVerb.Description" xml:space="preserve">
+    <value>Riduci '{0}'</value>
+  </data>
+  <data name="LeftZoneTopResource1.MinimizeVerb.Text" xml:space="preserve">
+    <value>Riduci</value>
+  </data>
+  <data name="LeftZoneTopResource1.RestoreVerb.Description" xml:space="preserve">
+    <value>Ripristina '{0}'</value>
+  </data>
+  <data name="LeftZoneTopResource1.RestoreVerb.Text" xml:space="preserve">
+    <value>Ripristina</value>
+  </data>
+  <data name="LeftZoneTopResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkPasswordRecoveryResource1.Text" xml:space="preserve">
+    <value>Ho dimenticato la password</value>
+  </data>
+  <data name="lnkPasswordRecoveryResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkProfileResource1.Text" xml:space="preserve">
+    <value>Modifica Profilo</value>
+  </data>
+  <data name="lnkProfileResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lnkRegisterResource1.Text" xml:space="preserve">
+    <value>Crea nuovo account</value>
+  </data>
+  <data name="lnkRegisterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="locTemplateMonster1Resource1.Text" xml:space="preserve">
+    <value>Il template del sito è stato fornito da Template Monster,un provider di layout grafici per il web</value>
+  </data>
+  <data name="locTemplateMonster2Resource1.Text" xml:space="preserve">
+    <value>Il template del sito è stato gentilmente fornito da &lt;a href="http://www.templatemonster.com"&gt;Template Monster&lt;/a&gt;</value>
+  </data>
+  <data name="LoginName1Resource1.FormatString" xml:space="preserve">
+    <value>Ciao	{0}</value>
+  </data>
+  <data name="LoginName1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LoginResource1.CreateUserText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LoginResource1.FailureText" xml:space="preserve">
+    <value>Login fallito. Per favore riprova</value>
+  </data>
+  <data name="LoginResource1.HelpPageText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LoginResource1.InstructionText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LoginResource1.LoginButtonText" xml:space="preserve">
+    <value>Accedi</value>
+  </data>
+  <data name="LoginResource1.PasswordLabelText" xml:space="preserve">
+    <value>Password:</value>
+  </data>
+  <data name="LoginResource1.PasswordRecoveryText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LoginResource1.PasswordRequiredErrorMessage" xml:space="preserve">
+    <value>La password è richiesta.</value>
+  </data>
+  <data name="LoginResource1.RememberMeText" xml:space="preserve">
+    <value>Ricordati di me</value>
+  </data>
+  <data name="LoginResource1.TitleText" xml:space="preserve">
+    <value>Accedi</value>
+  </data>
+  <data name="LoginResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="LoginResource1.UserNameLabelText" xml:space="preserve">
+    <value>Nome utente:</value>
+  </data>
+  <data name="LoginResource1.UserNameRequiredErrorMessage" xml:space="preserve">
+    <value>Il nome utente è richiesto.</value>
+  </data>
+  <data name="LoginStatus1Resource1.LoginText" xml:space="preserve">
+    <value>Accedi</value>
+  </data>
+  <data name="LoginStatus1Resource1.LogoutText" xml:space="preserve">
+    <value>Sconnetti</value>
+  </data>
+  <data name="LoginStatus1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mnuFooterResource1.ScrollDownText" xml:space="preserve">
+    <value>Scroll in basso</value>
+  </data>
+  <data name="mnuFooterResource1.ScrollUpText" xml:space="preserve">
+    <value>Scroll in alto</value>
+  </data>
+  <data name="mnuFooterResource1.SkipLinkText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mnuFooterResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mnuHeaderResource1.ScrollDownText" xml:space="preserve">
+    <value>Scroll in basso</value>
+  </data>
+  <data name="mnuHeaderResource1.ScrollUpText" xml:space="preserve">
+    <value>Scroll in alto</value>
+  </data>
+  <data name="mnuHeaderResource1.SkipLinkText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mnuHeaderResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageCatalogPart1Resource1.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageCatalogPart1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PageCatalogPart1Resource1.Title" xml:space="preserve">
+    <value>Catalogo della pagina</value>
+  </data>
+  <data name="PageCatalogPart1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PasswordResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PasswordResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PollBox1Resource1.HeaderText" xml:space="preserve">
+    <value>Altri sondaggi</value>
+  </data>
+  <data name="pollCurrentResource1.HeaderText" xml:space="preserve">
+    <value>Sondaggio attuale</value>
+  </data>
+  <data name="pollGenericResource1" xml:space="preserve">
+    <value>Sondaggio</value>
+  </data>
+  <data name="PropertyGridEditorPart1Resource1.Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PropertyGridEditorPart1Resource1.GroupingText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="PropertyGridEditorPart1Resource1.Title" xml:space="preserve">
+    <value>Proprietà personalizzate</value>
+  </data>
+  <data name="PropertyGridEditorPart1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RememberMeResource1.Text" xml:space="preserve">
+    <value>Ricordati di me</value>
+  </data>
+  <data name="RememberMeResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightZoneBottomResource1.CloseVerb.Description" xml:space="preserve">
+    <value>Chiudi '{0}'</value>
+  </data>
+  <data name="RightZoneBottomResource1.CloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="RightZoneBottomResource1.ConnectVerb.Description" xml:space="preserve">
+    <value>Modifica le connessioni per '{0}'</value>
+  </data>
+  <data name="RightZoneBottomResource1.ConnectVerb.Text" xml:space="preserve">
+    <value>Connetti</value>
+  </data>
+  <data name="RightZoneBottomResource1.DeleteVerb.Description" xml:space="preserve">
+    <value>Elimina '{0}'</value>
+  </data>
+  <data name="RightZoneBottomResource1.DeleteVerb.Text" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="RightZoneBottomResource1.EditVerb.Description" xml:space="preserve">
+    <value>Modifica '{0}'</value>
+  </data>
+  <data name="RightZoneBottomResource1.EditVerb.Text" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="RightZoneBottomResource1.EmptyZoneText" xml:space="preserve">
+    <value>Aggiungi una Web Part in questa zona tramite drag &amp; drop</value>
+  </data>
+  <data name="RightZoneBottomResource1.ExportVerb.Description" xml:space="preserve">
+    <value>Esporta le personalizzazioni della Web Part '{0}' in un file XML</value>
+  </data>
+  <data name="RightZoneBottomResource1.ExportVerb.Text" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="RightZoneBottomResource1.HeaderText" xml:space="preserve">
+    <value>Zona Destra - in fondo</value>
+  </data>
+  <data name="RightZoneBottomResource1.HelpVerb.Description" xml:space="preserve">
+    <value>Mostra la guida per '{0}'</value>
+  </data>
+  <data name="RightZoneBottomResource1.HelpVerb.Text" xml:space="preserve">
+    <value>Guida</value>
+  </data>
+  <data name="RightZoneBottomResource1.MenuLabelText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightZoneBottomResource1.MinimizeVerb.Description" xml:space="preserve">
+    <value>Riduci '{0}'</value>
+  </data>
+  <data name="RightZoneBottomResource1.MinimizeVerb.Text" xml:space="preserve">
+    <value>Riduci</value>
+  </data>
+  <data name="RightZoneBottomResource1.RestoreVerb.Description" xml:space="preserve">
+    <value>Ripristina '{0}'</value>
+  </data>
+  <data name="RightZoneBottomResource1.RestoreVerb.Text" xml:space="preserve">
+    <value>Ripristina</value>
+  </data>
+  <data name="RightZoneBottomResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightZoneTopResource1.CloseVerb.Description" xml:space="preserve">
+    <value>Chiudi '{0}'</value>
+  </data>
+  <data name="RightZoneTopResource1.CloseVerb.Text" xml:space="preserve">
+    <value>Chiudi</value>
+  </data>
+  <data name="RightZoneTopResource1.ConnectVerb.Description" xml:space="preserve">
+    <value>Modifica le connessioni per '{0}'</value>
+  </data>
+  <data name="RightZoneTopResource1.ConnectVerb.Text" xml:space="preserve">
+    <value>Connetti</value>
+  </data>
+  <data name="RightZoneTopResource1.DeleteVerb.Description" xml:space="preserve">
+    <value>Elimina '{0}'</value>
+  </data>
+  <data name="RightZoneTopResource1.DeleteVerb.Text" xml:space="preserve">
+    <value>Elimina</value>
+  </data>
+  <data name="RightZoneTopResource1.EditVerb.Description" xml:space="preserve">
+    <value>Modifica '{0}'</value>
+  </data>
+  <data name="RightZoneTopResource1.EditVerb.Text" xml:space="preserve">
+    <value>Modifica</value>
+  </data>
+  <data name="RightZoneTopResource1.EmptyZoneText" xml:space="preserve">
+    <value>Aggiungi una Web Part in questa zona tramite drag &amp; drop</value>
+  </data>
+  <data name="RightZoneTopResource1.ExportVerb.Description" xml:space="preserve">
+    <value>Esporta le personalizzazioni della Web Part '{0}' in un file XML</value>
+  </data>
+  <data name="RightZoneTopResource1.ExportVerb.Text" xml:space="preserve">
+    <value>Esporta</value>
+  </data>
+  <data name="RightZoneTopResource1.HeaderText" xml:space="preserve">
+    <value>Zona Destra - in alto</value>
+  </data>
+  <data name="RightZoneTopResource1.HelpVerb.Description" xml:space="preserve">
+    <value>Mostra la guida per '{0}'</value>
+  </data>
+  <data name="RightZoneTopResource1.HelpVerb.Text" xml:space="preserve">
+    <value>Guida</value>
+  </data>
+  <data name="RightZoneTopResource1.MenuLabelText" xml:space="preserve">
+    <value />
+  </data>
+  <data name="RightZoneTopResource1.MinimizeVerb.Description" xml:space="preserve">
+    <value>Riduci '{0}'</value>
+  </data>
+  <data name="RightZoneTopResource1.MinimizeVerb.Text" xml:space="preserve">
+    <value>Riduci</value>
+  </data>
+  <data name="RightZoneTopResource1.RestoreVerb.Description" xml:space="preserve">
+    <value>Ripristina '{0}'</value>
+  </data>
+  <data name="RightZoneTopResource1.RestoreVerb.Text" xml:space="preserve">
+    <value>Ripristina</value>
+  </data>
+  <data name="RightZoneTopResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="rssLatestArticlesResource1.MoreText" xml:space="preserve">
+    <value>Altri articoli...</value>
+  </data>
+  <data name="rssLatestArticlesResource1.Title" xml:space="preserve">
+    <value>Ultimi Articoli</value>
+  </data>
+  <data name="rssLatestProductsResource1.MoreText" xml:space="preserve">
+    <value>Altri prodotti...</value>
+  </data>
+  <data name="rssLatestProductsResource1.Title" xml:space="preserve">
+    <value>Ultimi Prodotti</value>
+  </data>
+  <data name="rssLatestThreadsResource1.MoreText" xml:space="preserve">
+    <value>Altre discussioni...</value>
+  </data>
+  <data name="rssLatestThreadsResource1.Title" xml:space="preserve">
+    <value>Ultime Discussioni</value>
+  </data>
+  <data name="rssMostActiveThreadsResource1.MoreText" xml:space="preserve">
+    <value>Altre discussioni...</value>
+  </data>
+  <data name="rssMostActiveThreadsResource1.Title" xml:space="preserve">
+    <value>Discussioni Più Attive</value>
+  </data>
+  <data name="rssReaderGenericResource1.Title" xml:space="preserve">
+    <value>Reader RSS</value>
+  </data>
+  <data name="SiteMapPath1Resource1.PathSeparator" xml:space="preserve">
+    <value> &gt; </value>
+  </data>
+  <data name="SiteMapPath1Resource1.SkipLinkText" xml:space="preserve">
+    <value>Skip Navigation Links</value>
+  </data>
+  <data name="SiteMapPath1Resource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="SubmitResource1.AlternateText" xml:space="preserve">
+    <value>Accedi</value>
+  </data>
+  <data name="SubmitResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="TemplateMonsterBannerResource1.AlternateText" xml:space="preserve">
+    <value>Banner di TemplateMonster</value>
+  </data>
+  <data name="TemplateMonsterBannerResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UserNameResource2.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="UserNameResource2.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valRequirePasswordResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valRequirePasswordResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valRequirePasswordResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valRequireUserNameResource1.ErrorMessage" xml:space="preserve">
+    <value />
+  </data>
+  <data name="valRequireUserNameResource1.Text" xml:space="preserve">
+    <value>*</value>
+  </data>
+  <data name="valRequireUserNameResource1.ToolTip" xml:space="preserve">
+    <value />
+  </data>
+</root>

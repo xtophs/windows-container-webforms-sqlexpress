@@ -1,0 +1,224 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Template.master.cs" Inherits="MB.TheBeerHouse.UI.TemplateMaster" %>
+<%@ Register Src="Controls/ThemeSelector.ascx" TagName="ThemeSelector" TagPrefix="mb" %>
+<%@ Register Src="Controls/PollBox.ascx" TagName="PollBox" TagPrefix="mb" %>
+<%@ Register Src="Controls/NewsletterBox.ascx" TagName="NewsletterBox" TagPrefix="mb" %>
+<%@ Register Src="Controls/ShoppingCartBox.ascx" TagName="ShoppingCartBox" TagPrefix="mb" %>
+<%@ Register Src="Controls/PersonalizationManager.ascx" TagName="PersonalizationManager" TagPrefix="mb" %>
+<%@ Register Src="Controls/WelcomeBox.ascx" TagName="WelcomeBox" TagPrefix="mb" %>
+<%@ Register Src="Controls/RssReader.ascx" TagName="RssReader" TagPrefix="mb" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd"> 
+<!-- <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd"> -->
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+    <title>TheBeerHouse</title>
+    <script type="text/javascript">
+    /* <![CDATA[ */ 
+        function AdjustColumnsHeight()
+        {
+            // get a reference to the three DIVS that make up the columns
+            var centerCol = window.document.getElementById('centercol');
+            var leftCol = window.document.getElementById('leftcol');
+            var rightCol = window.document.getElementById('rightcol');
+            // calculate the max height
+            var hCenterCol = centerCol.offsetHeight;
+            var hLeftCol = leftCol.offsetHeight;
+            var hRightCol = rightCol.offsetHeight;
+            var maxHeight = Math.max(hCenterCol, Math.max(hLeftCol, hRightCol));
+            // set the height of all 3 DIVS to the max height
+            centerCol.style.height = maxHeight + 'px';
+            leftCol.style.height = maxHeight + 'px';
+            rightCol.style.height = maxHeight + 'px';            
+            // Show the footer
+            window.document.getElementById('footer').style.visibility = 'inherit';
+        }
+        window.onload = function() { AdjustColumnsHeight(); }   
+    /* ]]> */       
+    </script>
+</head>
+
+<body>
+<form id="Main" runat="server">
+   <div id="header">
+      <div id="header2">
+         <div id="headermenu">
+            <asp:Menu ID="mnuHeader" runat="server" 
+               CssClass="headermenulink"
+               DataSourceID="SiteMapDataSource1" 
+               Orientation="Horizontal" 
+               MaximumDynamicDisplayLevels="0" 
+               SkipLinkText=""
+               StaticDisplayLevels="2" meta:resourcekey="mnuHeaderResource1" />
+         </div>
+      </div>
+      <div id="loginbox"> 
+         <asp:LoginView ID="LoginView1" runat="server">
+            <AnonymousTemplate>
+               <asp:Login ID="Login" runat="server" Width="100%" FailureAction="RedirectToLoginPage" meta:resourcekey="LoginResource1">
+                  <LayoutTemplate>
+                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                           <td width="60px"><asp:Label runat="server" ID="lblUserName" AssociatedControlID="UserName" Text="Username:" meta:resourcekey="lblUserNameResource1" /></td>
+                           <td><asp:TextBox id="UserName" runat="server" Width="95%" meta:resourcekey="UserNameResource2" /></td>
+                           <td width="5px" align="right">
+                              <asp:RequiredFieldValidator ID="valRequireUserName" runat="server" SetFocusOnError="True"
+                                 ControlToValidate="UserName" Text="*" ValidationGroup="Login" meta:resourcekey="valRequireUserNameResource1" />
+                           </td>
+                        </tr>
+                        <tr>
+                           <td><asp:Label runat="server" ID="lblPassword" AssociatedControlID="Password" Text="Password:" meta:resourcekey="lblPasswordResource1" /></td>
+                           <td><asp:TextBox ID="Password" runat="server" TextMode="Password"  Width="95%" meta:resourcekey="PasswordResource2" /></td>
+                           <td width="5px" align="right">
+                              <asp:RequiredFieldValidator ID="valRequirePassword" runat="server" SetFocusOnError="True"
+                                 ControlToValidate="Password" Text="*" ValidationGroup="Login" meta:resourcekey="valRequirePasswordResource1" />
+                           </td>
+                        </tr>
+                     </table>
+                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                           <td><asp:CheckBox ID="RememberMe" runat="server" Text="Remember me" meta:resourcekey="RememberMeResource1"></asp:CheckBox></td>
+                           <td align="right">
+                              <asp:ImageButton ID="Submit" runat="server" AlternateText="Login"
+                                 CommandName="Login" ImageUrl="~/images/go.gif" ValidationGroup="Login" meta:resourcekey="SubmitResource1" />
+                           </td>
+                           <td width="5px" align="right">&nbsp;</td>
+                        </tr>
+                     </table>
+                     <div style="border-top: solid 1px black; margin-top: 2px; padding-top: 2px">
+                        <asp:HyperLink ID="lnkRegister" runat="server" NavigateUrl="~/Register.aspx" meta:resourcekey="lnkRegisterResource1">Create new account</asp:HyperLink><br />
+                        <asp:HyperLink ID="lnkPasswordRecovery" runat="server" NavigateUrl="~/PasswordRecovery.aspx" meta:resourcekey="lnkPasswordRecoveryResource1">I forgot my password</asp:HyperLink>
+                     </div>
+                  </LayoutTemplate>
+               </asp:Login>
+            </AnonymousTemplate>
+            <LoggedInTemplate>
+               <div id="welcomebox">
+                  <asp:LoginName ID="LoginName1" runat="server" FormatString="Hello	{0}" meta:resourcekey="LoginName1Resource1" /><br />
+                  <small>
+                  <asp:HyperLink ID="lnkProfile" runat="server" Text="Edit Profile" NavigateUrl="~/EditProfile.aspx" meta:resourcekey="lnkProfileResource1" /><br /> 
+                  <asp:LoginStatus ID="LoginStatus1" Runat="server" meta:resourcekey="LoginStatus1Resource1" />
+                  </small>
+               </div>
+            </LoggedInTemplate>
+         </asp:LoginView>
+      </div>
+      <div id="themeselector">
+         <mb:ThemeSelector id="ThemeSelector1" runat="server" />
+      </div>
+   </div>
+
+   <div id="container">
+      <div id="container2">
+         <div id="centercol">
+            <div id="breadcrumb">
+               <mb:PersonalizationManager ID="PersonalizationManager1" runat="server" Visible="False" />
+               <asp:SiteMapPath ID="SiteMapPath1" runat="server" meta:resourcekey="SiteMapPath1Resource1" />
+            </div>      
+            
+            <asp:EditorZone ID="EditorZone1" runat="server" Width="100%" meta:resourcekey="EditorZone1Resource1">
+               <ZoneTemplate>                  
+                  <asp:AppearanceEditorPart ID="AppearanceEditorPart1" runat="server" meta:resourcekey="AppearanceEditorPart1Resource1" />
+                  <asp:BehaviorEditorPart ID="BehaviorEditorPart1" runat="server" meta:resourcekey="BehaviorEditorPart1Resource1" />
+                  <asp:LayoutEditorPart ID="LayoutEditorPart1" runat="server" meta:resourcekey="LayoutEditorPart1Resource1" />
+                  <asp:PropertyGridEditorPart ID="PropertyGridEditorPart1" runat="server" Title="Custom Properties" meta:resourcekey="PropertyGridEditorPart1Resource1" />
+               </ZoneTemplate>
+            </asp:EditorZone>                        
+            <asp:CatalogZone ID="CatalogZone1" runat="server" meta:resourcekey="CatalogZone1Resource1" >
+               <ZoneTemplate>
+                  <asp:DeclarativeCatalogPart ID="DeclarativeCatalogPart1" runat="server" Title="Site Catalog" meta:resourcekey="DeclarativeCatalogPart1Resource1">
+                     <WebPartsTemplate>
+                        <mb:WelcomeBox ID="WelcomeBox1" runat="server" />   
+                        <mb:RssReader id="rssReaderGeneric" runat="server" Title="RSS Reader" meta:resourcekey="rssReaderGenericResource1"/>
+                        <mb:RssReader id="rssLatestArticles" runat="server" Title="Latest Articles"
+                           RssUrl="~/GetArticlesRss.aspx" meta:resourcekey="rssLatestArticlesResource1"
+                           MoreText="More articles..." MoreUrl="~/BrowseArticles.aspx" />
+                        <mb:RssReader id="rssLatestThreads" runat="server" Title="Latest Threads" meta:resourcekey="rssLatestThreadsResource1"
+                           RssUrl="~/GetThreadsRss.aspx?SortExpr=LastPostDate DESC" MoreText="More discussions..." MoreUrl="~/ShowForums.aspx" />
+                        <mb:RssReader id="rssMostActiveThreads" runat="server" Title="Most Active Threads" meta:resourcekey="rssMostActiveThreadsResource1"
+                           RssUrl="~/GetThreadsRss.aspx?SortExpr=ReplyCount DESC" MoreText="More discussions..." MoreUrl="~/ShowForums.aspx" />
+                        <mb:RssReader id="rssLatestProducts" runat="server" Title="Latest Products" meta:resourcekey="rssLatestProductsResource1"
+                           RssUrl="~/GetProductsRss.aspx" MoreText="More products..." MoreUrl="~/BrowseProducts.aspx" />
+                        <mb:PollBox id="pollGeneric" runat="server" ShowArchiveLink="False" ShowHeader="False" meta:resourcekey="pollGenericResource1" />
+                     </WebPartsTemplate>
+                  </asp:DeclarativeCatalogPart>
+                  <asp:PageCatalogPart ID="PageCatalogPart1" runat="server" Title="Local Page Catalog" meta:resourcekey="PageCatalogPart1Resource1" />
+               </ZoneTemplate>
+            </asp:CatalogZone>
+      
+            <div id="centercolcontent">
+               <div style="clear: both; margin-bottom: 5px;">
+                  <asp:WebPartZone ID="CenterZoneTop" Runat="server" HeaderText="Center Zone Top" Width="100%" meta:resourcekey="CenterZoneTopResource1"></asp:WebPartZone>
+                  <table border="0" cellpadding="2" cellspacing="0" width="100%">
+                     <tr>
+                        <td width="50%">
+                           <asp:WebPartZone ID="CenterZoneTopLeft" Runat="server" HeaderText="Center Zone Top-Left" Width="100%" meta:resourcekey="CenterZoneTopLeftResource1"></asp:WebPartZone>
+                        </td>
+                        <td width="50%">
+                           <asp:WebPartZone ID="CenterZoneTopRight" Runat="server" HeaderText="Center Zone Top-Right" Width="100%" meta:resourcekey="CenterZoneTopRightResource1"></asp:WebPartZone>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+               <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+               <div style="clear: both; margin-top: 5px;">
+                  <asp:WebPartZone ID="CenterZoneBottom" Runat="server" HeaderText="Center Zone Bottom" Width="100%" meta:resourcekey="CenterZoneBottomResource1"></asp:WebPartZone>
+                  <table border="0" cellpadding="2" cellspacing="0" width="100%">
+                     <tr>
+                        <td width="50%">
+                           <asp:WebPartZone ID="CenterZoneBottomLeft" Runat="server" HeaderText="Center Zone Bottom-Left" Width="100%" meta:resourcekey="CenterZoneBottomLeftResource1"></asp:WebPartZone>
+                        </td>
+                        <td width="50%">
+                           <asp:WebPartZone ID="CenterZoneBottomRight" Runat="server" HeaderText="Center Zone Bottom-Right" Width="100%" meta:resourcekey="CenterZoneBottomRightResource1"></asp:WebPartZone>
+                        </td>
+                     </tr>
+                  </table>
+               </div>               
+            </div>
+         </div>
+         <div id="rightcol">
+            <asp:WebPartZone ID="RightZoneTop" Runat="server" HeaderText="Right Zone Top" Width="100%" meta:resourcekey="RightZoneTopResource1"></asp:WebPartZone>
+            <mb:NewsletterBox id="NewsletterBox1" runat="server" />            
+            <mb:ShoppingcartBox id="ShoppingcartBox1" runat="server" />
+            <asp:ContentPlaceHolder ID="RightContent" runat="server"></asp:ContentPlaceHolder>
+            <asp:WebPartZone ID="RightZoneBottom" Runat="server" HeaderText="Right Zone Bottom" Width="100%" meta:resourcekey="RightZoneBottomResource1"></asp:WebPartZone>
+         </div>
+      </div>
+      <div id="leftcol">
+         <asp:WebPartZone ID="LeftZoneTop" Runat="server" HeaderText="Left Zone Top" Width="100%" meta:resourcekey="LeftZoneTopResource1"></asp:WebPartZone>
+         <mb:PollBox id="pollCurrent" runat="server" HeaderText="Poll of the week" meta:resourcekey="pollCurrentResource1" />
+         <mb:PollBox id="PollBox1" runat="server" HeaderText="More polls" PollID="24" ShowArchiveLink="False" meta:resourcekey="PollBox1Resource1" />
+         <p></p>         
+         <asp:ContentPlaceHolder ID="LeftContent" runat="server"></asp:ContentPlaceHolder>
+         <asp:WebPartZone ID="LeftZoneBottom" Runat="server" HeaderText="Left Zone Bottom" Width="100%" meta:resourcekey="LeftZoneBottomResource1"></asp:WebPartZone>
+         <div id="bannerbox">
+            <a href="http://www.templatemonster.com">
+            <asp:Localize runat="server" ID="locTemplateMonster1" meta:resourcekey="locTemplateMonster1Resource1" Text="Website Template supplied by Template Monster,&#13;&#10;            a top global provider of website design templates"></asp:Localize><br /><br />
+            <asp:Image runat="server" ID="TemplateMonsterBanner" AlternateText="TemplateMonster's banner"
+               ImageUrl="~/images/templatemonster.jpg" Width="100px" meta:resourcekey="TemplateMonsterBannerResource1" />
+            </a>
+         </div>  
+      </div>        
+   </div>
+ 
+   <div id="footer">
+      <div id="footermenu">
+         <asp:Menu ID="mnuFooter" runat="server" 
+            style="margin-left:auto; margin-right:auto;"
+            CssClass="footermenulink"
+            DataSourceID="SiteMapDataSource1" 
+            Orientation="Horizontal" 
+            MaximumDynamicDisplayLevels="0" 
+            SkipLinkText="" 
+            StaticDisplayLevels="2" meta:resourcekey="mnuFooterResource1" />			
+		   <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+      </div>
+      <div id="footertext">
+         <small>Copyright &copy; 2005 Marco Bellinaso &amp; <a href="http://www.wrox.com">Wrox Press</a><br />
+		   <asp:Localize runat="server" ID="locTemplateMonster2" meta:resourcekey="locTemplateMonster2Resource1" Text='Website Template kindly offered by <a href="http://www.templatemonster.com">Template Monster</a>'></asp:Localize></small>
+      </div>
+   </div>
+</form>
+</body>
+</html>

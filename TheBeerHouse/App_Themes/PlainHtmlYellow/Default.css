@@ -1,0 +1,416 @@
+body
+{
+   margin: 0px;
+   font-family: Verdana, Arial, Serif;
+   font-size: 12px;
+}
+
+td
+{
+   vertical-align: top;
+}
+
+td.fieldname
+{
+   text-align: right;
+}
+
+hr
+{
+   color: Maroon;
+}
+
+#container
+{
+   background-color: #ffb487;
+}
+
+#container2
+{
+   background-color: #8d2d23;
+   margin-right: 200px;
+}
+
+#header
+{
+   padding: 0px;
+   margin: 0px;
+   width: 100%;
+   height: 150px;
+   background-image: url(images/HeaderSlice.gif);
+}
+
+#header2
+{
+   padding: 0px;
+   margin: 0px;
+   width: 260px;
+   height: 150px;
+   background-image: url(images/Header.gif);
+}
+
+#headermenu
+{
+   position: absolute;
+   top: 124px;
+   left: 245px;
+   width: 700px;
+   padding: 2px 2px 2px 2px;
+}
+
+#breadcrumb
+{
+   background-color: #4e1e1a;
+   color: white;
+   padding: 3px;
+   font-size: 10px;
+   padding-left: 5px;
+}
+
+#breadcrumb a
+{
+   color: #c0c0c0;
+}
+
+#footermenu
+{
+   text-align: center;
+   padding-top: 10px;            
+}
+
+#footertext
+{
+   text-align: center;
+   padding-top: 3px;            
+}
+
+#bannerbox
+{
+   border: dotted 3px #8d2d23;
+   margin-top: 20px;
+   margin-bottom: 20px;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 5px;
+   text-align: center;
+   background-color: #fcd4be;
+}
+
+#bannerbox a
+{
+   font-size: 10px;
+   text-decoration: none;
+   color: black; 
+}
+
+#loginbox
+{
+   position: absolute;
+   top: 14px;
+   right: 10px;
+   width: 180px;
+   height: 80px;
+   padding: 2px 2px 2px 2px;    
+   font-size: 10px;
+}
+
+#loginbox input
+{
+   color: #8d2d23;
+   border-color: #8d2d23;
+   background-color: #f8b502;
+   font-size: 10px;
+}
+
+#themeselector
+{
+   position: absolute;
+   text-align: right;
+   top: 122px;
+   right: 10px;
+   width: 180px;
+   height: 80px;
+   padding: 2px 2px 2px 2px;    
+   font-size: 10px;
+}
+
+#themeselector select
+{
+   color: #8d2d23;
+   background-color: #fc9a0e;
+   font-size: 10px;
+}
+
+#welcomebox
+{
+   font-size: 12px;
+   text-align: right;
+}
+
+#footer
+{
+   border-top: solid 2px #8d2d23;
+   padding: 0px;
+   margin: 0px;
+   width: 100%;
+   height: 62px;
+   background-color: #fc9a0e;
+   visibility: hidden;
+}
+        
+#leftcol
+{
+   position: absolute;
+   top: 150px;
+   right: 0px;      
+   width: 200px;
+   background-color: #ffb487;
+   font-size: 10px;
+}
+
+#leftcol a
+{
+   color: blue;
+}
+
+#leftcol div.text
+{
+   padding: 6px 6px 6px 6px;
+   text-align: justify;
+}
+
+#leftcol div.alternatetext
+{
+   padding: 6px 6px 6px 6px;
+   background-color: #fcd4be;
+   text-align: justify;
+}
+
+#leftcol div.sectiontitle, #leftcol .sectiontitle span
+{
+   padding: 6px 6px 6px 3px;
+   background-color: #8d2d23;
+   color: white;
+   font-size: 12px;
+   font-weight: bold;	
+   text-transform: uppercase;
+}
+
+#centercol
+{
+   position: relative;
+   margin-left: 200px;
+   padding: 0px;
+   background-color: white;
+   height: 500px;
+}
+
+#centercolcontent
+{
+   padding: 15px 6px 15px 6px;
+}
+
+#centercolcontent div.sectiontitle, #centercolcontent .sectiontitle span
+{
+   font-weight: bold;
+   font-size: larger;
+   color: Maroon;
+}
+
+#centercolcontent div.sectionsubtitle
+{
+   font-weight: bold;
+   padding-bottom: 4px;
+}
+
+#rightcol
+{
+   position: absolute;
+   top: 150px;
+   left: 0px; 
+   width: 198px;
+   color: White;
+   background-color: #8d2d23;
+   font-size: 10px;
+}
+
+
+#rightcol a
+{
+   color: Yellow;
+}
+
+#rightcol div.text
+{
+   padding: 6px 6px 6px 6px;
+   text-align: justify;
+}
+
+#rightcol div.sectiontitle, #rightcol .sectiontitle span
+{
+   padding: 6px 6px 6px 3px;
+   background-color: #76110c;
+   color: #fc9a0e;
+   font-size: 12px;
+   font-weight: bold;	
+   text-transform: uppercase;
+}
+
+.footermenulink
+{
+   font-family: Arial, Serif;
+   font-size: 12px;
+   font-weight: bold;
+   text-transform: uppercase;        
+}
+
+.footermenulink a
+{
+   text-decoration: none;
+   color: #8d2d23; 
+}
+
+.headermenulink
+{
+   font-family: Impact;
+   font-size: 17px;  
+}
+
+.headermenulink a
+{
+   text-decoration: none;
+   color: black; 
+}
+
+.headermenulink a:hover
+{
+   text-decoration: underline overline;
+   color: #8d2d23; 
+}
+
+.highlightcity
+{
+   background-color: #bb392f;
+}
+
+.highlightstate
+{
+   background-color: #ffb401;
+}
+
+.highlightcountry
+{
+   background-color: #ffb487;
+}
+
+.articlebox
+{
+   background-color: #fff6eb;
+   color: maroon;
+   border: dashed 1px #723330;
+   padding: 6px 6px 6px 6px;
+   font-size: smaller;
+}
+
+.articletitle
+{
+   font-size: 18px;
+   font-weight: bold;
+   color: #723330;
+   text-decoration: none;
+}
+
+.articleabstract
+{
+   padding-top: 6px;
+}
+
+.comment
+{
+   padding: 4px 0px 4px 0px;
+   font-size: smaller;
+}
+
+.pollbox
+{
+   font-size: 11px;
+}
+
+.pollcontent
+{
+   padding: 6px;
+}
+
+.pollquestion
+{
+   font-size: 13px;
+   font-weight: bold;
+}
+
+.polloptions
+{
+   padding-top: 10px;
+   padding-bottom: 4px;
+}
+
+.pollbar
+{
+   background-color: red;
+   font-size: 4px;   
+}
+
+.progressbarcontainer
+{
+   width: 98%;
+   height: 15px;
+   border: solid 1px black;
+   padding: 1px;
+}
+
+.progressbar
+{
+   width: 0px;
+   background-color: Red;
+   height: 15px;
+}
+
+.newsletterbox
+{
+   font-size: 11px;
+}
+
+.newsletterboxcontent
+{
+   padding: 6px;
+}
+
+.postinfo
+{
+   background-color: #ebb267;
+   font-weight: bold;
+   text-align: center;
+}
+
+.posttitle
+{
+   padding: 3px;
+   margin-bottom: 10px;
+   background-color: #df830b;
+   color: white;
+   font-weight: bold;
+}
+
+.postbody
+{
+   padding: 3px;
+}
+
+.shoppingcartbox
+{
+   font-size: 11px;
+}
+
+.shoppingcartboxcontent
+{
+   padding: 6px;
+}
