@@ -1,0 +1,16 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: beer-deployment
+spec:
+  replicas: 1 # tells deployment to run 1 pod matching the template
+  template: # create pods using pod definition in this template
+    metadata:
+      labels:
+        app: beerhouse
+    spec:
+      containers:
+      - name: beerhouse
+        image: xtoph/beerhouse:1.0
+        ports:
+        - containerPort: 8000
