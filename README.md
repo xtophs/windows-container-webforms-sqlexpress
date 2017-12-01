@@ -8,6 +8,25 @@ The app is running on .NET Framework 2.0. **No code changes** were necessary to 
 ## Helpful Info
 Lauch the container
 ```
+docker run -p 8000:8000 xtoph/beerhouse:1.0
+```
+
+get the container id
+```
+docker ps --filter image=xtoph/beerhouse:1.0 -q
+<container-id>
+```
+
+get the IP address for the container
+```
+docker inspect <container-id>
+```
+
+then point the browser to `http://<container-ip>:8000
+
+## SQL Background
+To only run SQL in the base container:
+```
 docker run -p 8000:8000 windows-container-webforms-sqlexpress:latest
 ```
 
